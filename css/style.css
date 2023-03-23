@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar {
+  font-size: 16px;
+}
+.logo {
+  margin-left: 20px;
+}
+.sub-heading {
+  font-size: 30px;
+}
+.main-heading {
+  font-size: 72px !important;
+  color: cornflowerblue;
+  font-weight:bold !important; 
+ 
+}
+.para {
+  font-size: 18px;
+}
+.btn-section {
+  color: white;
+  background-color: cornflowerblue;
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: none;
+}
+.btn-ham {
+  display: none;
+}
+.me-2 {
+  margin-right: 181px !important;
+}
+
+.col-md-5 {
+  padding-top: 140px;
+}
+
+.btn-close {
+  color: greenyellow !important;
+}
+
+.sidebar {
+  display: none;
+}
+/* css for tablet */
+
+@media screen and (max-width: 900px) {
+  .banner {
+    height: 100%;
+    width: 100%;
+  }
+  #ham {
+    margin-right: 150px;
+    border: none;
+  }
+
+  .col-md-5{
+    padding-top: 40px;
+  }
+  .btn {
+    background-color: white;
+    padding-right: 140px;
+  }
+  .btn-ham {
+    display: block;
+  }
+  .sidebar {
+    display: block;
+  }
+  .sidebar li {
+    list-style: none;
+    text-align: center;
+  }
+  .sidebar li a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+  }
+  .btn-close {
+    margin-left: auto;
+  }
+  #offcanvasRight {
+    width: 30%;
+  }
+}
+
+/* css for mobile */
+@media screen and (max-width: 430px) {
+  .navbar-toggler-icon {
+    position: relative;
+    right: -120px;
+  }
+  .col-md-5 {
+    width: 65%;
+    padding-top: 30px;
+  }
+  .sub-heading {
+    font-size: 20px !important;
+  }
+  .main-heading{
+    font-size: 65px;
+  }
+  #offcanvasRight{
+    width: 45%;
+  }
+}
